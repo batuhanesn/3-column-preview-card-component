@@ -19,7 +19,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Links
 
-- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-qr-code-page-using-css-flexbox-d7IlgeyGGw)
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-90T7RSbAnu)
 - Live Site URL: [Live Site at Github.io](https://batuhanesn.github.io/3-column-preview-card-component/)
 
 ## My process
