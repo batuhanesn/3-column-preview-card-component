@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+  align-items: center;
+  justify-content: center;
+  height: 720px;
+  font-family: "Lexend Deca", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 30rem;
+  width: 19rem;
+  background-color: hsl(31, 77%, 52%);
+  color: hsla(0, 0%, 100%, 0.75);
+  border-bottom-left-radius: 0.7rem;
+  border-top-left-radius: 0.7rem;
+}
+.content:nth-child(2) {
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  background-color: hsl(184, 100%, 22%);
+}
+.content:nth-child(2) .btn {
+  color: hsl(184, 100%, 22%);
+}
+.content:nth-child(3) {
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+.content:nth-child(3) .btn {
+  color: hsl(179, 100%, 13%);
+}
+.imgs {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", cursive;
+  margin-left: 50px;
+}
+p {
+  margin-left: 50px;
+  font-size: 15px;
+  width: 13.1rem;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.8;
+  padding-bottom: 50px;
+}
+.btn {
+  margin-left: 50px;
+  margin-right: 40px;
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  border: none;
+  border-radius: 30px;
+  width: 9rem;
+  height: 3rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 600;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid #fff;
+  font-weight: 400;
+}
+.content:nth-child(2) .btn:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-weight: 400;
+}
+.content:nth-child(3) .btn:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: 2px solid #fff;
+  cursor: pointer;
+  font-weight: 400;
+}
+@media only screen and (max-width: 844px) {
+  body {
+    display: flex;
+    width: 100%;
+
+    overflow: scroll;
+    flex-wrap: wrap;
+  }
+  main {
+    padding: 50px 0;
+    flex-direction: column;
+  }
+  .content {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 0.7rem;
+  }
+  .content:nth-child(2) {
+    border-radius: 0px;
+  }
+  .content:nth-child(3) {
+    border-bottom-right-radius: 0.7rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-right-radius: 0px;
+  }
+  p {
+    font-size: 0.87rem;
+  }
+}
